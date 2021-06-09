@@ -119,14 +119,14 @@
           "hubOutputName": "${hubSinkOutputName}",
           "inputs": [
             {
-              "nodeName": "httpExtension"
+              "nodeName": "objectTracker"
             }
           ]
         },
         {
           "@type": "#Microsoft.VideoAnalyzer.VideoSink",
           "name": "videoSink",
-          "videoName": "sample-cvr-inferencing",
+          "videoName": "sample-cvr-with-inference-metadata2",
           "inputs": [
             {
               "nodeName": "rtspSource",
@@ -143,8 +143,8 @@
             }
           ],
           "videoCreationProperties": {
-            "title": "sample-cvr-inferencing",
-            "description": "Sample video using HTTP extension",
+            "title": "sample-cvr-with-inference-metadata2",
+            "description": "Sample video recording where inferencing metadata (generated via a HTTP extension and object tracking) is recorded along with media",
             "segmentLength": "PT30S"
           },
           "localMediaCachePath": "/var/lib/videoanalyzer/tmp/",
@@ -153,4 +153,3 @@
       ]
     }
   }
-  
