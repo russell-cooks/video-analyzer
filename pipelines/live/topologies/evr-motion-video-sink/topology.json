@@ -95,7 +95,7 @@
       {
         "@type": "#Microsoft.VideoAnalyzer.VideoSink",
         "name": "videoSink",
-        "videoName": "sample-motion-video",
+        "videoName": "sample-motion-2",
         "inputs": [
           {
             "nodeName": "signalGateProcessor",
@@ -109,7 +109,7 @@
           }
         ],
         "videoCreationProperties": {
-          "title": "sample-motion-video",
+          "title": "sample-motion-video2",
           "description": "Sample video using motion",
           "segmentLength": "PT30S"
         },
