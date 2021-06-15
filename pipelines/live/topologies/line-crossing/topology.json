@@ -48,7 +48,7 @@
                 "name":"lineCoordinates",
                 "type":"string",
                 "description":"line coordinates",
-                "default": "[[0.5,0.1], [0.5,0.9]]"
+                "default": "[[0.7,0.1], [0.7,0.9]]"
             },
             {
                 "name":"hubSinkOutputName",
