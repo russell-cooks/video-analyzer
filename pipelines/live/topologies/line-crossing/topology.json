@@ -138,8 +138,8 @@
                 "name":"iotHubSink",
                 "inputs":[
                     {
-                        "nodeName":"lineCrossing",
-                        "nodeName" : "objectTracker"
+                        "nodeName" : "objectTracker",
+                        "nodeName":"lineCrossing"
                     }
                 ]
             }
