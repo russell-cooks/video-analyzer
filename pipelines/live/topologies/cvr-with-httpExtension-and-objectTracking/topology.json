@@ -99,12 +99,13 @@
           ],
           "samplingOptions": {
             "skipSamplesWithoutAnnotation": "false",
-            "maximumSamplesPerSecond": "7.5"
+            "maximumSamplesPerSecond": "5"
           }
         },
         {
             "@type":"#Microsoft.VideoAnalyzer.ObjectTrackingProcessor",
             "name":"objectTracker",
+            "accuracy": "high",
             "inputs":[
                 {
                    "nodeName":"httpExtension"
@@ -126,7 +127,7 @@
         {
           "@type": "#Microsoft.VideoAnalyzer.VideoSink",
           "name": "videoSink",
-          "videoName": "sample-cvr-with-inference-metadata2",
+          "videoName": "sample-cvr-with-inference-metadata-hi",
           "inputs": [
             {
               "nodeName": "rtspSource",
@@ -143,7 +144,7 @@
             }
           ],
           "videoCreationProperties": {
-            "title": "sample-cvr-with-inference-metadata2",
+            "title": "sample-cvr-with-inference-metadata-hi",
             "description": "Sample video recording where inferencing metadata (generated via a HTTP extension and object tracking) is recorded along with media",
             "segmentLength": "PT30S"
           },
