@@ -146,7 +146,7 @@
             {
           "@type": "#Microsoft.VideoAnalyzer.VideoSink",
           "name": "videoSink",
-          "videoName": "sample-linecrossing-with-inference-metadata",
+          "videoName": "sample-linecrossing-with-inference-metadata10s",
           "inputs": [
             {
               "nodeName": "rtspSource",
@@ -163,7 +163,7 @@
             }
           ],
           "videoCreationProperties": {
-            "title": "sample-linecrossing-with-inference-metadata",
+            "title": "sample-linecrossing-with-inference-metadata10s",
             "description": "Sample video recording",
             "segmentLength": "PT30S"
           },
