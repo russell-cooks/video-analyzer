@@ -24,7 +24,7 @@
                 "name":"inferenceUrl",
                 "type":"string",
                 "description":"inferenceUrl",
-                "default": "http://yolov3/score"
+                "default": "default": "http://172.18.0.6:8888/score"
             },
             {
                 "name":"inferenceUrlPassword",
@@ -48,7 +48,7 @@
                 "name":"lineCoordinates",
                 "type":"string",
                 "description":"line coordinates",
-                "default": "[[0.75,0.1], [0.75,0.9]]"
+                "default": "[[0.5,0.1], [0.5,0.9]]"
             },
           
             {
